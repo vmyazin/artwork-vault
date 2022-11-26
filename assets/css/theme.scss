@@ -1,0 +1,36 @@
+---
+
+---
+
+@import 'variables';
+
+body {
+  background-color: #f8db3d;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 300;
+  color: $black;
+}
+
+.main-header {
+  border-bottom: 1px solid $purple;
+  padding: .5rem 0;
+  
+  h2 {
+    color: $black;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+  }
+}
+
+hr {
+  border-color: $black;
+}
+
+h2 {
+  color: $grey4;
+  font-size: 1.15rem;
+}
+
+a {
+  color: $green;
+}
