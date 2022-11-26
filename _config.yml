@@ -23,7 +23,7 @@ email: simon@rapidsystemshub.com
 description: >- # this means to ignore newlines until "baseurl:"
   This vault will contain meta data about artwork found in the real world.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://vault.rapidsystemshub.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rapidsystemshub
 github_username:  vmyazin
 
@@ -51,3 +51,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sass:
+  sass_dir: _sass
+  style: compact
