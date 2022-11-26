@@ -1,0 +1,36 @@
+---
+layout: page
+title: Panda On Walking Street
+permalink: /artwork/000001
+---
+
+<img src="/assets/images/000001_panda_on_walking_street_in_chiang_mai_2x3.jpg" class="img-fluid" alt="Panda Artwork">
+
+## Prompt
+
+“panda on walking street in chiang mai, crowded street, sunny day, photo realistic, 4k”
+
+Created using MidJourney – oct 28, 2022
+
+## Notes
+
+Touched up in Photoshop, printed on canvas
+
+## Author
+
+Simon M.
+
+## About Creator
+
+Simon is a traveler who works in UX design and digital marketing. He’s an enthusiast of all things AI and produces AI art regularly.
+
+Simon is a trained artist and designer.
+
+## Contact
+
+[simon@rapidsystemshub.com](mailto:simon@rapidsystemshub.com)
+
+Send the creator a photo of where you saw this artwork!
+
+### Gallery
+
