@@ -1,42 +1,13 @@
 ---
-layout: page
+layout: item
 title: Panda On Walking Street
 aid: '000001'
+author: Simon M.
+email: simon@rapidsystemshub.com
 permalink: /artwork/000001/
+main_image_url: "/assets/images/000001_panda_on_walking_street_in_chiang_mai_2x3.jpg"
+avatar_image_url: "/assets/images/avatar-simon.jpg"
+notes: Touched up in Photoshop, printed on canvas
+prompt: panda on walking street in chiang mai, crowded street, sunny day, photo realistic, 4k
+byline_meta: Created using <a href="https://www.midjourney.com">MidJourney</a> – Oct 28, 2022
 ---
-
-ID: {{ page.aid }}
-
-<img src="/assets/images/000001_panda_on_walking_street_in_chiang_mai_2x3.jpg" class="img-fluid" alt="Panda Artwork">
-
-## Prompt
-
-“panda on walking street in chiang mai, crowded street, sunny day, photo realistic, 4k”
-
-Created using MidJourney – oct 28, 2022
-
-<hr />
-
-## Notes
-
-Touched up in Photoshop, printed on canvas
-
-## Author
-
-Simon M.
-
-## About Creator
-
-Simon is a traveler who works in UX design and digital marketing. He’s an enthusiast of all things AI and produces AI art regularly.
-
-Simon is a trained artist and designer.
-
-## Contact
-
-[simon@rapidsystemshub.com](mailto:simon@rapidsystemshub.com)
-
-<i class="fa-solid fa-paper-plane"></i>
-Send the creator a photo of where you saw this artwork!
-
-### Gallery
-
