@@ -48,11 +48,28 @@ a {
   border-radius: $br-default;
 }
 
+.post {
+  &.constrained {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.post-header {
+  padding: .5rem 0;
+}
+
 .post-title {
   font-size: 18px;
   line-height: 1.2;
   color: $grey1;
-}
+  
+  @media (min-width: 750px) {
+    font-size: 28px;
+  }
+}  
+
 
 .callout {
   font-weight: 500;
@@ -63,11 +80,7 @@ a {
 
 .av-avatar {
   width: 112px;
-}
-
-.post-header {
-  padding: .5rem 0;
-}
+}  
 
 .post-content {
   h2 {

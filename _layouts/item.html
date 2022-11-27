@@ -1,75 +1,82 @@
 ---
 layout: default
 ---
-<article class="post mt-3">
+<article class="post mt-3 constrained">
 
   <header class="post-header text-center">
     <h1 class="post-title mb-1">“{{ page.title | escape }}”</h1>
     <p>ID: {{ page.aid }}</p>
   </header>
 
-  <div class="mx-3 mb-4">
-    <img src='{{ page.main_image_url }}' class="img-fluid av-rounded" alt="{{ page.title }} Artwork">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <div class="mx-3 mb-4">
+        <img src='{{ page.main_image_url }}' class="img-fluid av-rounded" alt="{{ page.title }} Artwork">
+      </div>
+    </div>
+    
+    <div class="col-12 col-lg-6">
+      <div class="post-content mt-sm-0 mt-3">
+        <div class="container px-sm-0">
+          <div class="row">
+            <div class="col">
+              <h2>Prompt</h2>
+              <p>“{{ page.prompt }}”</p>
+              <p class="byline">{{ page.byline_meta }}</p>
+    
+              {{ content }}
+            </div>
+          </div>
+        </div>
+    
+        <hr />
+    
+        <div class="container px-sm-0">
+          <div class="row">
+            <div class="col">
+              <h2>Notes</h2>
+              <p>{{ page.notes }} </p>
+            </div>
+          </div>
+        </div>
+    
+        <hr />
+    
+        <div class="container px-sm-0">
+          <div class="row">
+            <div class="col">
+    
+              <div class="col d-flex align-items-center mb-3">
+                <div>
+                  <h2>Author</h2>
+                  <p>{{ page.author }}</p>
+                </div>
+                <img src='{{ page.avatar_image_url }}' class="av-avatar av-rounded ms-auto" alt="{{ page.author }}">
+              </div>
+    
+              <h2>About Creator</h2>
+    
+              <p>Simon is a traveler who works in UX design and digital marketing. He’s an enthusiast of all things AI and produces AI art regularly.</p>
+    
+              <p>Simon is a trained artist and designer.</p>
+    
+              <h2>Contact</h2>
+    
+              <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   
-  <div class="post-content mt-3">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h2>Prompt</h2>
-          <p>“{{ page.prompt }}”</p>
-          <p class="byline">{{ page.byline_meta }}</p>
-          
-          {{ content }}
-        </div>
-      </div>
-    </div>
 
-    <hr />
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h2>Notes</h2>
-          <p>{{ page.notes }} </p>
-        </div>
-      </div>
-    </div>
-
-    <hr />
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-
-          <div class="col d-flex align-items-center mb-3">
-            <div>
-              <h2>Author</h2>
-              <p>{{ page.author }}</p>
-            </div>
-            <img src='{{ page.avatar_image_url }}' class="av-avatar av-rounded ms-auto" alt="{{ page.author }}">
-          </div>
-
-          <h2>About Creator</h2>
-
-          <p>Simon is a traveler who works in UX design and digital marketing. He’s an enthusiast of all things AI and produces AI art regularly.</p>
-
-          <p>Simon is a trained artist and designer.</p>
-
-          <h2>Contact</h2>
-
-          <a href="mailto:{{ page.email }}">{{ page.email }}</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col callout bg-purple my-4 p-3 d-flex">
-      <i class="fa-solid fa-paper-plane fa-2x me-3"></i>
-      Send the creator a photo of where you saw this artwork!
-    </div>
+  <div class="col callout bg-purple my-4 p-3 d-flex align-items-center">
+    <i class="fa-solid fa-paper-plane fa-2x me-3"></i>
+    <p class="mb-0">Send the creator a photo of where you saw this artwork!</p>
+  </div>
 
     <!-- <h3>Gallery</h3> -->
 
-  </div>
 
 </article>
