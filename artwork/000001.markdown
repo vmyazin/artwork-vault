@@ -2,7 +2,7 @@
 layout: page
 title: Panda On Walking Street
 aid: '000001'
-permalink: /artwork/000001
+permalink: /artwork/000001/
 ---
 
 ID: {{ page.aid }}
