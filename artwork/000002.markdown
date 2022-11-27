@@ -1,0 +1,13 @@
+---
+layout: item
+title: Mystic Mongolian Nomadic Woman
+aid: '000002'
+author: Simon M.
+email: simon@rapidsystemshub.com
+permalink: /artwork/000002/
+main_image_url: "/assets/images/000002_mongolian_nomadic_woman_close_up_profile_portrait.jpg"
+avatar_image_url: "/assets/images/avatar-simon.jpg"
+notes: Touched up in Photoshop, printed on canvas
+prompt: 3d mongolian nomadic woman close up profile portrait with polar bear skull. beautiful african australian raven beak mask and mongolian coat. betta fish, phoenix jellyfish, bioluminescent, plasma, ice, water, wind, creature, artwork by tooth wu and wlop and beeple and leonardo da vinci
+byline_meta: Created using <a href="https://www.midjourney.com">MidJourney</a> – Nov 13, 2022
+---

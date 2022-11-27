@@ -20,7 +20,7 @@ body {
 }
 
 .main-header {
-  border-bottom: 1px solid $purple;
+  border-bottom: 1px solid $black;
   padding: .5rem 0;
   
   h2 {
@@ -74,8 +74,16 @@ a {
 .callout {
   font-weight: 500;
   border: 1px solid $black;
-  border-left: 0;
-  border-right: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+
+  @media (min-width: 749px) {
+    border-left-width: 1px;
+    border-right-width: 1px;     
+  }
+  @media (max-width: 750px) {
+    border-radius: 0; 
+  }
 }
 
 .av-avatar {

@@ -8,7 +8,7 @@ layout: default
     <p>ID: {{ page.aid }}</p>
   </header>
 
-  <div class="row">
+  <div class="row mt-3">
     <div class="col-12 col-lg-6">
       <div class="mx-3 mb-4">
         <img src='{{ page.main_image_url }}' class="img-fluid av-rounded" alt="{{ page.title }} Artwork">
@@ -63,6 +63,12 @@ layout: default
               <h2>Contact</h2>
     
               <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+
+              <div class="col callout my-4 p-3 d-flex align-items-center av-rounded">
+                <i class="fa-solid fa-paper-plane fa-2x me-3"></i>
+                <p class="mb-0">Send the creator a photo of where you saw this artwork!</p>
+              </div>
+            
             </div>
           </div>
         </div>
@@ -71,10 +77,6 @@ layout: default
   </div>
   
 
-  <div class="col callout bg-purple my-4 p-3 d-flex align-items-center">
-    <i class="fa-solid fa-paper-plane fa-2x me-3"></i>
-    <p class="mb-0">Send the creator a photo of where you saw this artwork!</p>
-  </div>
 
     <!-- <h3>Gallery</h3> -->
 
