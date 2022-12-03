@@ -12,7 +12,24 @@
     <script src="https://kit.fontawesome.com/9844cb1757.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha256-m81NDyncZVbr7v9E6qCWXwx/cwjuWDlHCMzi9pjMobA=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}">    
-    <title>Artwork Vault</title>
+    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="website" />
+    {% if page.main_image_url %}
+      <meta property="og:image" content="{{ page.main_image_url }}" />
+    {% else %}
+    <meta property="og:image" content="{{ site.base_img }}" />
+    {% endif %}
+    <meta property="og:url" content="{{ site.url }}{{ page.permalink }}" />
+    {% unless page.prompt %}
+      <meta name="description" content="{{ site.description }}" />
+      <meta property="og:description" content="{{ site.description }}" />
+    {% else %}
+      <meta name="description" content="{{ page.prompt }}" />
+      <meta property="og:description" content="{{ page.prompt }}" />
+    {% endunless %}
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="{{ site.title }}" />
   </head>
   <body>
     {% include header.html %}

@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://vault.rapidsystemshub.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rapidsystemshub
 github_username:  vmyazin
+base_img: "/assets/images/og-default.png"
 
 # Build settings
 theme: minima
