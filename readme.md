@@ -9,3 +9,7 @@ Email: simon@rapidsystemshub.com
 ## To run
 
 `bundle exec jekyll serve`
+
+## To build
+
+`jekyll b`
