@@ -27,6 +27,7 @@ url: "http://vault.rapidsystemshub.com" # the base hostname & protocol for your 
 twitter_username: rapidsystemshub
 github_username:  vmyazin
 base_img: "/assets/images/og-default.png"
+gtag_id: "G-7BXQFP488Y"
 
 # Build settings
 theme: minima
