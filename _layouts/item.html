@@ -62,7 +62,12 @@ layout: default
     
               <h2>Contact</h2>
     
-              <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+              <div class="list-group">
+                <a class="list-group-item" href="mailto:{{ page.email }}">{{ page.email }}</a>
+                <a class="list-group-item" href="https://www.twitter.com/{{ site.twitter_username }}">Twitter</a>
+                <a class="list-group-item" href="https://www.facebook.com/{{ site.facebook_username }}">Facebook</a>
+              </div>
+              
 
               <div class="col callout my-4 p-3 d-flex align-items-center av-rounded">
                 <i class="fa-solid fa-paper-plane fa-2x me-3"></i>

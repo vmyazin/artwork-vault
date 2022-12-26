@@ -122,3 +122,10 @@ a {
     font-size: 0.85rem;
   }
 }
+
+.list-group {
+  > a {
+    background-color: transparent;
+    border-color: $grey1;
+  }
+}

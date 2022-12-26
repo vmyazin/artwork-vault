@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://vault.rapidsystemshub.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rapidsystemshub
+facebook_username: vmyazin
 github_username:  vmyazin
 base_img: "/assets/images/og-default.png"
 gtag_id: "G-7BXQFP488Y"
