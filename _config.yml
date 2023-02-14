@@ -31,6 +31,15 @@ base_img: "/assets/images/og-default.png"
 gtag_id: "G-7BXQFP488Y"
 yandex_id: "91915307"
 
+social:
+  - name: twitter
+    url: https://twitter.com/rapidsystemshub
+  - name: facebook
+    url: https://www.facebook.com/vmyazin
+  - name: email
+    url: mailto:simon@rapidsystemshub.com
+
+
 # Build settings
 theme: minima
 plugins:
